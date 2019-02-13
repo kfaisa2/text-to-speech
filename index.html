@@ -125,6 +125,10 @@
         const MDCSnackbar = mdc.snackbar.MDCSnackbar;
         const MDCSnackbarFoundation = mdc.snackbar.MDCSnackbarFoundation;
         
+function sayIt (setOfWords) {
+var msg = new SpeechSynthesisUtterance(setOfWords);
+   window.speechSynthesis.speak(msg);
+}
 
 
 
